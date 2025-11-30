@@ -12,7 +12,6 @@
 - Makesure database "toko" is already exist
 - Copy .env.example to .env
 - Run "composer install"
-- Run "npm install"
 - Run "php artisan key:generate"
 - Run "php artisan migrate"
 - Run "php artisan db:seed"
