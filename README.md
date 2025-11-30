@@ -7,6 +7,22 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+## How to run project
+- Clone project.
+- Makesure database "toko" is already exist
+- Copy .env.example to .env
+- Run "composer install"
+- Run "npm install"
+- Run "php artisan key:generate"
+- Run "php artisan migrate"
+- Run "php artisan db:seed"
+- Run "php artisan serve"
+
+## Endpoint API
+[GET]
+- (base_url)/api/items
+
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
