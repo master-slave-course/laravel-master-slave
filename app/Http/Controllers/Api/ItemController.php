@@ -26,7 +26,16 @@ class ItemController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $item = Item::create([
+            'name' => $request->name,
+            'stock' => $request->stock,
+            'price' => $request->price,
+        ]);
+
+        return response()->json([
+            'status' => 201,
+            'data' => $item
+        ], 201);
     }
 
     /**

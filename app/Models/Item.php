@@ -12,6 +12,7 @@ class Item extends Model
         'id',
         'name',
         'price',
+        'stock',
         'created_at',
     ];
 }
